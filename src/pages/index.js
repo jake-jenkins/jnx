@@ -13,7 +13,9 @@ export default function Home() {
       <p>UX designer and web developer in South Wales.</p>
       <Link className={styles.btn} to="/projects">My Portfolio Projects</Link>
     </div>
+    <img src="bulb.jpg" style={{maxWidth: '100%'}} alt="Idea"></img>
   </section>
     </Layout>
     )
 }
+
