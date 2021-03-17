@@ -5,7 +5,7 @@ export default function about() {
     return (
         <Layout>
         <div>
-            <h1>About Page</h1>
+            <h1>About</h1>
             <p>About text</p>
         </div>
         </Layout>

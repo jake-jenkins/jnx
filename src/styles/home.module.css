@@ -18,7 +18,7 @@
   background: rgba(0, 230, 118, 1);
   color: #000;
   padding: 20px 26px;
-  border-radius: 10px;
+  border-radius: 5pt 10pt 5pt 10pt;
   margin-top: 20px;
   font-weight: 500;
 }

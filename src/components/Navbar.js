@@ -4,8 +4,11 @@ import React from 'react'
 export default function Navbar() {
 
     return (
+        <header>
+        <div class="logo">
+            <Link to="/"><img src="/jnx-logo.png" alt="JNX logo"></img></Link>
+        </div>
         <nav>
-        <h1><img src="/jnx-logo.png" alt="JNX logo"></img></h1>
         <div className="links">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
@@ -13,5 +16,6 @@ export default function Navbar() {
         <Link to="/contact">Contact</Link>
         </div>  
         </nav>
+        </header>
     )
 }

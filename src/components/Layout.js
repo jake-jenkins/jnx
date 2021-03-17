@@ -10,7 +10,7 @@ export default function Layout({ children }) {
             {children}
             </div>
 <footer>
-    <p>Copyright Jake Jenkins 2021.</p>
+    <p>© Jake Jenkins 2003 - 2021.</p>
     </footer>
         </div>
     )
