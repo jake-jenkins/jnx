@@ -6,7 +6,9 @@ export default function Navbar() {
     return (
         <header>
         <div class="logo">
-            <Link to="/"><img src="/jnx-logo.png" alt="JNX logo"></img></Link>
+            <a href="/">
+            <img src="/jnx-logo.png" alt="JNX logo"></img>
+            </a>
         </div>
         <nav>
         <div className="links">
