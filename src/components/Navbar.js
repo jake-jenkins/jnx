@@ -5,7 +5,7 @@ export default function Navbar() {
 
     return (
         <header>
-        <div class="logo">
+        <div>
             <a href="/">
             <img src="/jnx-logo.png" alt="JNX logo"></img>
             </a>
