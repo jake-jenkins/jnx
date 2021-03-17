@@ -9,8 +9,8 @@ export default function Home({ data }) {
     <Layout>
   <section className={styles.header}>
     <div>
-      <h2>Design</h2>
-      <h3>Develop & Deploy</h3>
+      <h2>Awesome</h2>
+      <h3>Web Apps & Sites.</h3>
       <p>UX designer and web developer in South Wales.</p>
       <Link className={styles.btn} to="/projects">My Portfolio Projects</Link>
     </div>
