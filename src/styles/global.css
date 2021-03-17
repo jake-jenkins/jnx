@@ -7,58 +7,82 @@
   font-family: "Montserrat";
   color: white;
 }
-html,
+
 body {
-  min-height: 100%;
-  padding: 0px 10px 0px 10px;
-}
-body {
-  background: radial-gradient(
-    at top left,
-    rgba(146, 43, 225, 1) 0%,
-    rgba(43, 9, 107, 1) 100%
+  margin: 0;
+  font-family: "Istok Web", sans-serif;
+  font-size: 1.1rem;
+  background-image: linear-gradient(
+    to right top,
+    #6d28d9,
+    #6133da,
+    #543bdb,
+    #4642db,
+    #3748da,
+    #3c49dc,
+    #414add,
+    #454bdf,
+    #5b47e3,
+    #6e42e6,
+    #813ce8,
+    #9333ea
   );
-  background-repeat: no-repeat;
-}
-p {
-  margin: 16px auto;
-  line-height: 1.5em;
-}
-
-/* layout & nav */
-.layout {
-  max-width: 1420px;
-  margin: 0 auto;
-}
-
-footer p {
-  text-align: center;
-  color: #fff;
-  margin: 40px auto;
-}
-img {
-  border-radius: 5pt 10pt 5pt 10pt;
 }
 
 header {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  max-width: 1420px;
+  margin: 10px auto 0px auto;
+  padding: 0px 15px;
 }
 
-header nav a {
+.logo {
+  width: 100px;
+}
+
+header > nav {
+  text-align: end;
+  flex-grow: inherit;
+}
+
+header > nav a {
   display: inline-block;
-  margin-left: 20px;
-  font-weight: 400;
-  padding-bottom: 8px;
-  border-bottom: 3px solid transparent;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0px 10px 15px 10px;
 }
 
-header nav a:hover {
-  border-color: white;
+main {
+  min-height: Calc(100vh - 191px);
+  padding: 0px 20px;
+  margin: auto;
+  max-width: 1420px;
+  color: #fff;
 }
 
-header nav {
-  display: inline-block;
-  text-align: right;
+footer {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  padding: 30px 0px 30px 10px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    height: 70px;
+    margin: 15px auto 0px auto;
+  }
+
+  main {
+    min-height: Calc(100vh - 226px);
+    padding: 30px 10px;
+  }
+
+  header > nav > a {
+    padding: 0px 6px 10px 6px;
+    font-size: 1.1rem;
+  }
 }

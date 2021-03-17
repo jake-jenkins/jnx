@@ -4,14 +4,14 @@ import '../styles/global.css'
 
 export default function Layout({ children }) {
     return (
-        <div className="layout">
-            <Navbar />
-            <div className="content">
+        <div>
+           <Navbar />
+        <main>
             {children}
-            </div>
-<footer>
-    <p>© Jake Jenkins 2003 - 2021.</p>
-    </footer>
+        </main>
+        <footer>
+        © Jake Jenkins 2003 - 2021.
+        </footer>
         </div>
     )
 }

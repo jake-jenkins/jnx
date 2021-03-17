@@ -10,8 +10,8 @@ export default function contact() {
     <meta name="description" content="Professional Portfolio for Jake Jenkins, Front End Web Developer.  Lets build Awesome Web Apps and Websites." />
     <meta name="keywords" cpntent="jake,jenkins,web,design,development,developer,portfolio,app,react,frond end,node,mvc,asp,net,sql,wales,bristol,cardiff,newport" />
   </Helmet>
-<h1>Contact JNX Web Development</h1>
-<p>Please note that Jake Jenkins is a sole trader, Trading as JNX</p>
+<h1>Contact</h1>
+<p>Please note that Jake Jenkins is a sole trader, Trading as JNX WEB DEVELOPMENT.</p>
 <p>&nbsp;</p>
 <h2>Talk to me right away</h2>
 <p>
