@@ -29,6 +29,10 @@ body {
   );
 }
 
+img {
+  border-radius: 5pt 10pt 5pt 10pt;
+}
+
 header {
   display: flex;
   align-items: center;
