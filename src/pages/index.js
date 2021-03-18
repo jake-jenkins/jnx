@@ -16,8 +16,8 @@ export default function Home({ data }) {
   </Helmet>
   <div class="container">
     <div class="col">
-      <h2 className={styles.h2}>Awesome</h2>
-      <h3 className={styles.h3}>Web Apps & Sites.</h3>
+      <h2 className={styles.awesome1}>Awesome</h2>
+      <h3 className={styles.awesome2}>Web Apps & Sites.</h3>
       <p>UX designer and web developer in South Wales.</p>
       <Link className={styles.btn} to="/projects">My Portfolio Projects</Link>
     </div>

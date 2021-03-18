@@ -60,7 +60,7 @@ header > nav a {
 }
 
 main {
-  min-height: Calc(100vh - 282px);
+  min-height: Calc(100vh - 271px);
   padding: 0px 20px;
   margin: auto;
   max-width: 1420px;
