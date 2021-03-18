@@ -24,3 +24,21 @@
   color: #ccc;
   margin-top: 4px;
 }
+
+@media only screen and (max-width: 920px) {
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+    margin: 80px 20px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 80px;
+    margin: 80px 20px;
+  }
+}

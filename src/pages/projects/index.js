@@ -14,22 +14,23 @@ export default function Projects({ data }) {
     <meta name="description" content="Professional Portfolio for Jake Jenkins, Front End Web Developer.  Lets build Awesome Web Apps and Websites." />
     <meta name="keywords" cpntent="jake,jenkins,web,design,development,developer,app,react,frond end,node,mvc,asp,net,sql,wales,bristol,cardiff,newport" />
   </Helmet>
-        <div className={styles.portfolio}>
-            <h2>Portfolio</h2>
-            <h3>Websites and Web Applications I have created</h3>
+      <div className={styles.portfolio}>
+        <h2>Portfolio</h2>
+        <h3>Projects & Websites I've Created</h3>
         <div className={styles.projects}>
-            {projects.map(project => (
-                <Link to={"/projects/" + project.frontmatter.slug} key={project.id}>
-                    <div>
-                        <Img fluid={project.frontmatter.thumb.childImageSharp.fluid}></Img>
-                        <h3>{ project.frontmatter.title }</h3>
-                        <p>{ project.frontmatter.stack }</p>
-                    </div>
-                </Link>
-            ))}
+          {projects.map(project => (
+            <Link to={"/projects/" + project.frontmatter.slug} key={project.id}>
+              <div>
+                <Img fluid={project.frontmatter.thumb.childImageSharp.fluid} />
+                <h3>{ project.frontmatter.title }</h3>
+                <p>{ project.frontmatter.stack }</p>
+              </div>
+            </Link>
+          ))}
         </div>
-        </div>
-        </Layout>
+        <p>Like what you see? email me at jake@jnx.app for a quote!</p>
+      </div>
+    </Layout>
     )
 }
 

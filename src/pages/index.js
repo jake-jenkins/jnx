@@ -14,15 +14,17 @@ export default function Home({ data }) {
     <meta name="description" content="Professional Portfolio for Jake Jenkins, Front End Web Developer.  Lets build Awesome Web Apps and Websites." />
     <meta name="keywords" cpntent="jake,jenkins,web,design,development,developer,portfolio,app,react,frond end,node,mvc,asp,net,sql,wales,bristol,cardiff,newport" />
   </Helmet>
-  <section className={styles.header}>
-    <div>
-      <h2>Awesome</h2>
-      <h3>Web Apps & Sites.</h3>
+  <div class="container">
+    <div class="col">
+      <h2 className={styles.h2}>Awesome</h2>
+      <h3 className={styles.h3}>Web Apps & Sites.</h3>
       <p>UX designer and web developer in South Wales.</p>
       <Link className={styles.btn} to="/projects">My Portfolio Projects</Link>
     </div>
+    <div class="col">
     <Img fluid={data.file.childImageSharp.fluid}></Img>
-  </section>
+    </div>
+</div>
     </Layout>
     )
   }
