@@ -3,8 +3,8 @@ title: CWSA Patient Portal
 stack: HTML, CSS, Razor Pages, .net core
 slug: cwsa-patient-portal
 date: 2021-01-10T00:00:00+00:00
-thumb: ../../images/thumbs/cwsa-th.jpg
-featuredImg: ../../images/featured/cwsa.jpg
+thumb: ../../images/thumbs/patient.jpg
+featuredImg: ../../images/featured/patient.jpg
 ---
 
 # Summary

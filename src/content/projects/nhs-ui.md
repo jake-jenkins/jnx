@@ -3,7 +3,7 @@ title: NHS UI
 stack: HTML, CSS, SASS & PostCSS
 slug: nhs-ui
 date: 2021-01-15T00:00:00+00:00
-thumb: ../../images/thumbs/code-th.jpg
+thumb: ../../images/thumbs/code.jpg
 featuredImg: ../../images/featured/code.jpg
 ---
 
