@@ -18,10 +18,10 @@
 }
 
 @media only screen and (max-width: 740px) {
-  .h2 {
+  .awesome1 {
     font-size: 3em;
   }
-  .h3 {
+  .awesome2 {
     font-size: 2em;
     font-weight: 400;
     margin-bottom: 20px;
