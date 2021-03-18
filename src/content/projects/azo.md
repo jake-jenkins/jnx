@@ -3,8 +3,8 @@ title: Student Portal
 stack: HTML, CSS & Javascript
 slug: student-portal
 date: 2021-01-05T00:00:00+00:00
-thumb: ../../images/thumbs/azo.jpg
-featuredImg: ../../images/featured/azo.jpg
+thumb: ../../images/thumbs/students-th.jpg
+featuredImg: ../../images/featured/student.jpg
 ---
 
 #Summary
