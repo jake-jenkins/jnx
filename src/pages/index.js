@@ -31,7 +31,7 @@ export default function Home({ data }) {
 
 export const query = graphql`
   query Bulb {
-    file(relativePath: {eq: "layer.png"}) {
+    file(relativePath: {eq: "pantone.png"}) {
       id
       childImageSharp {
         fluid {
