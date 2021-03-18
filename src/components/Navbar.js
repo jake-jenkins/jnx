@@ -11,7 +11,6 @@ export default function Navbar() {
             </a>
         </h1>
         <nav>
-        <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/projects">Portfolio</Link>
         <Link to="/contact">Contact</Link>
