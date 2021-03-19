@@ -13,3 +13,14 @@
 .featured {
   margin-bottom: 40px;
 }
+
+.html h2 {
+  font-size: 2rem;
+  margin-bottom: -20px;
+}
+
+.html h3 {
+  margin-bottom: 5px;
+  margin-top: 30px;
+  font-size: 1.6rem;
+}
