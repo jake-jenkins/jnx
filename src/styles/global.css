@@ -101,6 +101,10 @@ footer {
     font-size: 1.1rem;
   }
 
+  header > nav svg {
+    display: none;
+  }
+
   .container {
     display: block;
   }
