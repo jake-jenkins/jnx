@@ -1,5 +1,6 @@
 import { Link } from 'gatsby'
 import React from 'react'
+import { IoChatbubbleEllipsesSharp, IoPlanetSharp, IoHandRight } from "react-icons/io5";
 
 export default function Navbar() {
 
@@ -11,9 +12,9 @@ export default function Navbar() {
             </a>
         </h1>
         <nav>
-        <Link to="/about">About</Link>
-        <Link to="/projects">Portfolio</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/about"><IoHandRight /> About</Link>
+        <Link to="/projects"><IoPlanetSharp /> Portfolio</Link>
+        <Link to="/contact"><IoChatbubbleEllipsesSharp /> Contact</Link>
         </nav>
         </header>
     )

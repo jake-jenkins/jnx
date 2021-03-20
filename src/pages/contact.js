@@ -1,6 +1,7 @@
 import React from 'react'
 import { Helmet } from "react-helmet"
 import Layout from '../components/Layout'
+import { IoCallSharp, IoMailOpenSharp, IoLogoTwitter, IoLogoGithub } from "react-icons/io5";
 
 export default function contact() {
     return (
@@ -15,13 +16,13 @@ export default function contact() {
 <p>&nbsp;</p>
 <h2>Talk to me</h2>
 <p>
-<a href="tel:+442920001404"><i class="lni lni-phone"></i> 02920 001 404</a>
+<a href="tel:+442920001404"><IoCallSharp /> 02920 001 404</a>
 <br/>
-<a href="mailto:jake@jnx.app"><i class="lni lni-envelope"></i> jake@jnx.app</a>
+<a href="mailto:jake@jnx.app"><IoMailOpenSharp /> jake@jnx.app</a>
 <br/>
-<a href="https://twitter.com/jnx_uk" target="_blank" rel="noreferrer"><i class="lni lni-twitter-filled"></i> @jnx_uk</a>
+<a href="https://twitter.com/jnx_uk" target="_blank" rel="noreferrer"><IoLogoTwitter /> @jnx_uk</a>
 <br/>
-<a href="https://github.com/jnx-uk" target="_blank" rel="noreferrer"><i class="lni lni-github-original"></i> jnx-uk</a>
+<a href="https://github.com/jnx-uk" target="_blank" rel="noreferrer"><IoLogoGithub /> jnx-uk</a>
 </p>
 <p>&nbsp;</p>
 <p><h2>Send some post</h2></p>
