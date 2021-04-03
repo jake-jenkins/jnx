@@ -18,7 +18,7 @@ export default function contact() {
 <p>
 <a href="tel:+442920001404"><IoCallSharp /> 02920 001 404</a>
 <br/>
-<a href="mailto:jake@jnx.app"><IoMailOpenSharp /> jake@jnx.app</a>
+<a href="mailto:jake@jnx.app"><IoMailOpenSharp /> dev@jakejnx.com</a>
 <br/>
 <a href="https://twitter.com/jnx_uk" target="_blank" rel="noreferrer"><IoLogoTwitter /> @jnx_uk</a>
 <br/>
@@ -28,9 +28,9 @@ export default function contact() {
 <p><h2>Send some post</h2></p>
 <p>
 JNX Web Development<br/>
-97 Willowbrook Gardens<br/>
-Cardiff<br/>
-CF3 0BY
+45 Blue Lake Close<br/>
+Ebbw Vale<br/>
+NP23 6FD
 </p>
         </Layout>
     )
