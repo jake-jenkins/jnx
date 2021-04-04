@@ -11,4 +11,6 @@ featuredImg: ../../images/featured/nhs.jpg
 
 A bespoke front-end framework created for NHS software developers to give a clean, simple and consistent look across all apps they build.
 
-More info to come.
+<a href="https://sweet.pages.dev" class="btn">Component Demo</a>
+
+<a href="https://github.com/jnx-uk/sweet-ui" class="btn">See the code on github

@@ -85,6 +85,17 @@ footer {
   padding: 5px;
 }
 
+.btn {
+  padding: 10px 20px;
+  background: rgba(0, 230, 118, 1);
+  text-decoration: none;
+  border-radius: 5pt 10pt 5pt 10pt;
+  font-size: 1.2rem;
+  display: inline-block;
+  margin: 10px 0px;
+  color: #000;
+}
+
 @media only screen and (max-width: 740px) {
   header {
     height: 70px;
