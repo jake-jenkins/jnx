@@ -16,7 +16,7 @@ export default function contact() {
 <p>&nbsp;</p>
 <h2>Talk to me</h2>
 <p>
-<a href="tel:+442920001404"><IoCallSharp /> 02920 001 404</a>
+<a href="tel:+442920001404"><IoCallSharp /> 01495 832223</a>
 <br/>
 <a href="mailto:jake@jnx.app"><IoMailOpenSharp /> dev@jakejnx.com</a>
 <br/>
