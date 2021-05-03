@@ -37,7 +37,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
+  height: 120px;
   max-width: 1420px;
   margin: 10px auto 0px auto;
   padding: 0px 15px;
@@ -60,8 +60,8 @@ header > nav a {
 }
 
 main {
-  min-height: Calc(100vh - 271px);
-  padding: 0px 20px;
+  min-height: Calc(100vh - 331px);
+  padding: 20px 20px;
   margin: auto;
   max-width: 1420px;
   color: #fff;

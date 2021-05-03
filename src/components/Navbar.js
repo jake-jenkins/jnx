@@ -8,7 +8,7 @@ export default function Navbar() {
         <header>
         <h1>
             <a href="/">
-            <img src="/jnx-logo.png" alt="JNX logo" height="70" width="100"></img>
+            <img src="/wales-dev-logo.png" alt="JNX logo" height="100" width="150"></img>
             </a>
         </h1>
         <nav>

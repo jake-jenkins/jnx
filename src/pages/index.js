@@ -11,7 +11,7 @@ export default function Home({ data }) {
 
     <Layout>
       <Helmet>
-    <title>Welcome - Jake Jenkins, Front End Web Developer</title>
+    <title>Welcome - WalesDev.com Web Developer in Wales</title>
     <meta name="description" content="Professional Portfolio for Jake Jenkins, Front End Web Developer.  Lets build Awesome Web Apps and Websites." />
     <meta name="keywords" cpntent="jake,jenkins,web,design,development,developer,portfolio,app,react,frond end,node,mvc,asp,net,sql,wales,bristol,cardiff,newport" />
   </Helmet>

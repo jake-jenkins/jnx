@@ -1,9 +1,15 @@
 import React from 'react'
+import { Helmet } from "react-helmet"
 import Layout from "../components/Layout"
 
 export default function about() {
     return (
         <Layout>
+    <Helmet>
+    <title>About - WalesDev.com Web Developer in Wales</title>
+    <meta name="description" content="Professional Portfolio for Jake Jenkins, Front End Web Developer.  Lets build Awesome Web Apps and Websites." />
+    <meta name="keywords" cpntent="jake,jenkins,web,design,development,developer,app,react,frond end,node,mvc,asp,net,sql,wales,bristol,cardiff,newport" />
+  </Helmet>
         <div>
             <h1>About</h1>
             <p>Jake Jenkins is a UX and Web Developer based in South Wales with a passion for building the best, easiest to use web sites and applications.</p>

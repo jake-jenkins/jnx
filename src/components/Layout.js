@@ -10,7 +10,7 @@ export default function Layout({ children }) {
             {children}
         </main>
         <footer>
-        © Jake Jenkins 2003 - 2021.
+        WalesDev.com Web Developer in Wales © Jake Jenkins 2003 - 2021.
         </footer>
         </div>
     )
