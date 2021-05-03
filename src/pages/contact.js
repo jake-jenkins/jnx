@@ -20,9 +20,9 @@ export default function contact() {
 <br/>
 <a href="mailto:hello@walesdev.com"><IoMailOpenSharp /> hello@walesdev.com</a>
 <br/>
-<a href="https://twitter.com/jnx_uk" target="_blank" rel="noreferrer"><IoLogoTwitter /> @jnx_uk</a>
+<a href="https://twitter.com/waleswebdev" target="_blank" rel="noreferrer"><IoLogoTwitter /> @waleswebdev</a>
 <br/>
-<a href="https://github.com/jnx-uk" target="_blank" rel="noreferrer"><IoLogoGithub /> jnx-uk</a>
+<a href="https://github.com/waleswebdev" target="_blank" rel="noreferrer"><IoLogoGithub /> waleswebdev</a>
 </p>
 <p>&nbsp;</p>
 <p><h2>Send some post</h2></p>
