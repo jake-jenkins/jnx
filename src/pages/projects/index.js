@@ -28,7 +28,7 @@ export default function Projects({ data }) {
             </Link>
           ))}
         </div>
-        <p>Like what you see? email me at jake@jnx.app for a quote!</p>
+        <p>Like what you see? email me at hello@walesdev.com for a quote!</p>
       </div>
     </Layout>
     )
