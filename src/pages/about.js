@@ -8,7 +8,7 @@ export default function about() {
     <Helmet>
     <title>About - WalesDev.com Web Developer in Wales</title>
     <meta name="description" content="Professional Portfolio for Jake Jenkins, Front End Web Developer.  Lets build Awesome Web Apps and Websites." />
-    <meta name="keywords" cpntent="jake,jenkins,web,design,development,developer,app,react,frond end,node,mvc,asp,net,sql,wales,bristol,cardiff,newport" />
+    <meta name="keywords" content="jake,jenkins,web,design,development,developer,app,react,frond end,node,mvc,asp,net,sql,wales,bristol,cardiff,newport" />
   </Helmet>
         <div>
             <h1>About</h1>
